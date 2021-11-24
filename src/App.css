@@ -121,3 +121,11 @@ nav ul li a:hover {
 .navs active {
   background-color: #04aa6d;
 }
+
+.example {
+  overflow-y: scroll;
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
